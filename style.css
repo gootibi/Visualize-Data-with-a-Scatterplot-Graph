@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 43, 38);
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+svg {
+    margin-top: 30px;
+    background-color:rgb(140, 205, 181);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(21, 69, 19);
+}
+
+text {
+    fill: rgb(20, 12, 2);  
+    font-size: 12px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+
+.dot:hover {
+    fill: rgb(4, 16, 57);
+}
